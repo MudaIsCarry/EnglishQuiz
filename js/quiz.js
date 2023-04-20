@@ -6,7 +6,7 @@ quizForm.addEventListener("submit", function(e) {
 	e.preventDefault();
 
 	let score = 0;
-	const answers = ["b", "b", /* add more answers here */];
+	const answers = ["b", "b", "a", "c", "a", "b", "b", "c", "a", "a", "c", "a", "a", "b", "b", ];
 
 	for (let i = 1; i <= 15; i++) {
 		const answer = quizForm[`q${i}`].value;
