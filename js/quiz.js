@@ -21,7 +21,7 @@ quizForm.addEventListener("submit", function(e) {
 	if (score >= 1) {
 		const img = document.createElement("img");
 		img.src = "/img/yes.png";
-		img.alt = "Congratulations, you passed!";
+		img.alt = ">:(";
 		img.style.width = "100%";
 		img.style.height = "100%";
 		quizForm.appendChild(img);
@@ -31,7 +31,7 @@ quizForm.addEventListener("submit", function(e) {
 	} else {
 		const img = document.createElement("img");
 		img.src = "/img/no.png";
-		img.alt = "Sorry, you didn't pass.";
+		img.alt = ";)";
 		img.style.width = "100%";
 		img.style.height = "100%";
 		quizForm.appendChild(img);
