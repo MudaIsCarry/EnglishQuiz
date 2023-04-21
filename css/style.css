@@ -92,3 +92,12 @@ label {
 
 	.div15 { grid-area: 5 / 3 / 6 / 4; 
 	}
+
+	.full-screen-image {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	  }
